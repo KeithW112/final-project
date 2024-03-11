@@ -30,7 +30,10 @@ p {
 
 .sc__bc {
   padding: 32px;
+  position: relative;
 }
+
+
 
 .twocolumn-sc {
   position: relative;
@@ -64,9 +67,6 @@ NAV LINK
   align-items: center;
 }
 
-
-
-
 .light__navlink-1 {
   font-size: 1.125rem;
   font-weight: 600;
@@ -81,19 +81,16 @@ NAV LINK
   padding: 0 24px 0 0;
 }
 
-
-
-
 .list__nav-links {
- display: inline-block;
+  display: inline-block;
 }
 
 .light__primarylink {
-    border: solid;
-    border-radius: 100px;
-    background-color: rgb(100 21 255);
-    color: #fff;
-    padding: .75rem 1rem;
+  border: solid;
+  border-radius: 100px;
+  background-color: rgb(100 21 255);
+  color: #fff;
+  padding: 0.75rem 1rem;
 }
 
 .light__navlink--sign-up {
@@ -104,7 +101,6 @@ NAV LINK
   font-family: "Inter", sans-serif;
   display: flex;
   align-items: center;
- 
 }
 
 .light__navlink--sign-up:hover {
@@ -136,7 +132,7 @@ NAV LINK
   font-weight: 900;
   color: purple;
   display: flex;
-  
+
   justify-content: space-between;
   margin: 0 24px 0 0;
 }
@@ -229,4 +225,9 @@ HEADING INFO
   border: solid;
   border-color: lightgray;
   height: 70px;
+}
+
+.costomer__logostrip {
+display: flex;
+justify-content: end;
 }
