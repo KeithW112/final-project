@@ -311,10 +311,19 @@ FEATURES
   width: 100%;
 }
 
+.card-sc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem .5rem;
+  
+  
+}
+
 .box__wrapper {
   display: flex;
-  width: 33.3333333%;
-  flex-direction: row;
+  
+
 }
 
 
@@ -323,16 +332,27 @@ FEATURES
   border-radius: 10000px;
   border: 2px solid grey;
   padding: 1.25rem;
-  display: flex;
-  width: 2px;
-  height: 10px;
   
- 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 20px;
+}
 
+.text__container {
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+ font-size: 2em;
+ 
 }
 
 .title {
   font-size: 25px;
- 
-
+  padding: 20px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  
 }
