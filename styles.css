@@ -316,13 +316,15 @@ FEATURES
   justify-content: center;
   align-items: center;
   padding: 2rem .5rem;
-  
+  border-color: rgb(226, 232, 240);
   
 }
 
 .box__wrapper {
   display: flex;
-  
+  width: 200px;
+  padding: 24px;
+  justify-content: center;
 
 }
 
