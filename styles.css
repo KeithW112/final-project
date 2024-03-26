@@ -194,13 +194,13 @@ HEADING INFO
 .proccess__id:hover {
   cursor: pointer;
   background-color: purple;
+  transition: all 300ms ease;
 }
 
 .proccess__id {
   display: flex;
   flex-direction: row;
   width: 30%;
-
   align-items: center;
   right: 10px;
   top: 10px;
@@ -454,4 +454,22 @@ h2 {
     line-height: 1.25;
     color: rgb(36 62 99);
     max-width: 535px;
+}
+
+.primary__button {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.625;
+  padding: 0.75rem 2rem;
+  color: white;
+  background-color: rgb(100 21 255);
+  border-radius: 9999px;
+}
+
+.primary__button:hover {
+  cursor: pointer;
+  background-color: purple;
+  transition: all 300ms ease;
 }
