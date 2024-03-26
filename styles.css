@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+.root {
+  padding: 32px;
+}
 
 a {
   text-decoration: none;
@@ -268,6 +271,23 @@ FEATURES
   align-items: center;
 }
 
+.threecolcontainer {
+  padding-bottom: 96px;
+  position: relative;
+  animation-name: moveleft;
+  animation-duration: 700ms;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes moveleft {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: -1300px;
+  }
+}
+
 .column-sc {
   display: flex;
   flex-flow: row;
@@ -319,10 +339,11 @@ FEATURES
 
 .heading-sc {
   text-align: center;
-  font-family: inherit;
-  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
   font-size: 3rem;
   width: 100%;
+  color: rgb(36 62 99)
 }
 
 .card-sc {
@@ -365,4 +386,72 @@ FEATURES
   padding: 20px;
   font-weight: bold;
   font-family: "Inter", sans-serif;
+}
+
+
+/*
+
+FEATURES
+
+*/
+
+
+.landingpage__subheading-sc {
+  font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+    color: rgb(100 21 255);
+}
+
+.twocolbutton__styled--span {
+  color: rgb(100 21 255);
+}
+
+
+.twocolbutton__container{
+  display: flex;
+ padding-top: 96px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.twocolbutton__column-sc {
+  width: 50%;
+}
+
+.ladingpage__subheading-sc {
+  font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+    color: rgb(100 21 255);
+}
+
+.twocolbutton__description-sc {
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.625;
+  --tw-text-opacity: 1;
+  color: rgb(124 139 161);
+}
+
+
+.img-sc {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.25rem;
+  border: solid 1px rgb(226, 232, 240);
+}
+
+h2 {
+  margin-top: 1rem;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.25;
+    color: rgb(36 62 99);
+    max-width: 535px;
 }
