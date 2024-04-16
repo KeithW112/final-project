@@ -315,9 +315,6 @@ FEATURES
 .highlighted__text-sc {
   color: rgb(100 21 255);
 }
-.highlightedtext-sc{
-  color: rgb(100 21 255);
-}
 
 .description-sc {
   text-align: center;
@@ -330,6 +327,8 @@ FEATURES
   font-size: 1.125rem;
   font-family: "Inter", sans-serif;
 }
+
+/* Features */
 
 .subheading-sc {
   text-align: center;
@@ -346,7 +345,7 @@ FEATURES
   font-weight: 900;
   font-size: 3rem;
   width: 100%;
-  color: rgb(36 62 99)
+  color: rgb(36 62 99);
 }
 
 .card-sc {
@@ -391,31 +390,28 @@ FEATURES
   font-family: "Inter", sans-serif;
 }
 
-
 /*
 
-FEATURES
+Quality work
 
 */
 
-
 .landingpage__subheading-sc {
   font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    --tw-text-opacity: 1;
-    color: rgb(100 21 255);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  --tw-text-opacity: 1;
+  color: rgb(100 21 255);
 }
 
 .twocolbutton__styled--span {
   color: rgb(100 21 255);
 }
 
-
-.twocolbutton__container{
+.twocolbutton__container {
   display: flex;
- padding-top: 96px;
- padding-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -427,10 +423,10 @@ FEATURES
 
 .ladingpage__subheading-sc {
   font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    --tw-text-opacity: 1;
-    color: rgb(100 21 255);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  --tw-text-opacity: 1;
+  color: rgb(100 21 255);
 }
 
 .twocolbutton__description-sc {
@@ -443,23 +439,21 @@ FEATURES
   color: rgb(124 139 161);
 }
 
-
 .img-sc {
   max-width: 100%;
   height: auto;
   border-radius: 0.25rem;
   border: solid 1px rgb(226, 232, 240);
-
 }
 
 h2 {
   margin-top: 1rem;
-    text-align: left;
-    font-size: 3rem;
-    font-weight: 900;
-    line-height: 1.25;
-    color: rgb(36 62 99);
-    max-width: 535px;
+  text-align: left;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.25;
+  color: rgb(36 62 99);
+  max-width: 535px;
 }
 
 .primary__button {
@@ -488,14 +482,14 @@ h2 {
   height: 5rem;
   width: 5rem;
   --tw-translate-x: 50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-translate-y: 50%;
   fill: currentcolor;
   --tw-text-opacity: 1;
   color: rgb(100 21 255 / var(--tw-text-opacity));
 }
-
-
 
 /* Steps */
 
@@ -504,10 +498,28 @@ h2 {
   min-height: 100vh;
   overflow: hidden;
   padding-top: 96px;
-
+  padding-bottom: 96px;
 }
 
-.TwoColWithSteps__DecoratorBlob-sc{
+.highlightedtext-sc {
+  color: rgb(100 21 255);
+  display: inline-block;
+}
+
+.heading--sc {
+  display: inline-block;
+  margin-top: 16px;
+  width: 100%;
+  max-width: 1024px;
+  tab-size: 4;
+  font-family: Inter, system-ui;
+  letter-spacing: 0.025em;
+  font-weight: 900;
+  line-height: 1.25;
+  font-size: 3rem;
+}
+
+.TwoColWithSteps__DecoratorBlob-sc {
   position: absolute;
 
   z-index: -10;
@@ -521,7 +533,6 @@ h2 {
 }
 
 .twocolsteps__img--sc {
- 
   line-height: inherit;
   font-family: Inter, system-ui;
   --tw-text-opacity: 1;
@@ -534,11 +545,18 @@ h2 {
   max-width: 100%;
   height: auto;
   border-radius: 0.25rem;
-
 }
 
 .twocolsteps__twocolumn--sc {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
+  max-width: 1280px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6rem;
+ 
 }
 
 .twocolsteps__column--sc {
@@ -552,12 +570,61 @@ h2 {
   justify-content: space-between;
 }
 
-.subheading {
-     font-weight: 700;
-     font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    --tw-text-opacity: 1;
-    color: rgb(100 21 255);
-    text-align: left;
+.twocolsteps__textcontent--sc {
+  width: 50%;
+  margin-left: 64px;
 }
+
+.subheading {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  --tw-text-opacity: 1;
+  color: rgb(100 21 255);
+  text-align: left;
+}
+
+.steps--number {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(203 213 224);
+  margin-top: 2rem;
+}
+
+.steps--sc {
+  display: flex;
+}
+
+.stepsheading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1;
+  color: rgb(36 62 99);
+  margin-top: 2rem;
+}
+
+.stepsdescription {
+  margin-top: 0.75rem;
+  max-width: 20rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 2;
+  --tw-text-opacity: 1;
+  color: rgb(113 128 150 / var(--tw-text-opacity));
+}
+
+.stepstext {
+  margin-left: 1.5rem;
+}
+
+
+/*  
+
+values
+
+*/
+
+
