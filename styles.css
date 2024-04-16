@@ -315,6 +315,9 @@ FEATURES
 .highlighted__text-sc {
   color: rgb(100 21 255);
 }
+.highlightedtext-sc{
+  color: rgb(100 21 255);
+}
 
 .description-sc {
   text-align: center;
@@ -494,7 +497,7 @@ h2 {
 
 
 
-/* quality work */
+/* Steps */
 
 .twocolsteps__container {
   position: relative;
@@ -505,29 +508,20 @@ h2 {
 }
 
 .TwoColWithSteps__DecoratorBlob-sc{
-  line-height: inherit;
-  font-family: Inter, system-ui;
-  box-sizing: border-box;
-  border-width: 0px;
-  border-style: solid;
-  border-color: rgb(226, 232, 240);
-  display: block;
-  right: 0px;
-  bottom: 0px;
+  position: absolute;
+
   z-index: -10;
-  --tw-translate-y: 50%;
   fill: currentcolor;
   --tw-text-opacity: 1;
   color: rgb(100 21 255 / var(--tw-text-opacity));
-  left: 50%;
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  left: 25%;
   opacity: 0.15;
   height: 10rem;
   width: 10rem;
 }
 
 .twocolsteps__img--sc {
+ 
   line-height: inherit;
   font-family: Inter, system-ui;
   --tw-text-opacity: 1;
@@ -540,15 +534,30 @@ h2 {
   max-width: 100%;
   height: auto;
   border-radius: 0.25rem;
+
+}
+
+.twocolsteps__twocolumn--sc {
+  display: flex;
 }
 
 .twocolsteps__column--sc {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
   display: flex;
   max-width: 1280px;
   -webkit-box-align: center;
   align-items: center;
   -webkit-box-pack: justify;
   justify-content: space-between;
+}
+
+.subheading {
+     font-weight: 700;
+     font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+    color: rgb(100 21 255);
+    text-align: left;
 }
