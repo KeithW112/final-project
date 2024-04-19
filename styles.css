@@ -627,4 +627,22 @@ values
 
 */
 
+.twohorizontalfeatures--sc {
+  padding-top: 96px;
+}
 
+.landingpage__productsubheading--sc {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgb(100 21 255);
+}
+
+.twofeaturesproduct__description--sc {
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.625;
+  color: rgb(124 139 161);
+}
