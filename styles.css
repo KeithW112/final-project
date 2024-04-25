@@ -667,3 +667,7 @@ values
     border-width: 0px;
     
 }
+
+.twocol--horizontalfeatures__container{
+  display: flex;
+}
