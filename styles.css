@@ -939,6 +939,7 @@ Pricing
   width: 100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   border-radius: 9999px;
+  border: 0px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 0.875rem;
@@ -950,8 +951,10 @@ Pricing
 
 .threeplans__buynowbutton1 {
   width: 100%;
+  color: rgb(100 21 255);
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   border-radius: 9999px;
+  border: 0px;
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 0.875rem;
