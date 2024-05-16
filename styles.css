@@ -752,6 +752,12 @@ Pricing
 
 */
 
+
+.sc--jwoxv {
+  padding-top: 96px;
+    padding-bottom: 96px;
+}
+
 .heading__highlightedtext {
   color: rgb(100 21 255);
 }
@@ -811,6 +817,7 @@ Pricing
     align-items: center;
     -webkit-box-pack: justify;
     justify-content: space-between;
+    
 }
 
 .threeplans__planheader {
@@ -910,6 +917,22 @@ Pricing
   padding: 2rem;
 }
 
+.threeplans__planfeatures1 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(102 126 234 / var(--tw-border-opacity));
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 2rem;
+}
+
 .feature__mainfeature {
   font-size: 1.25rem;
   font-weight: 700;
@@ -961,3 +984,25 @@ Pricing
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
+.threeplans__buynowbutton2 {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  width: 100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  border-radius: 9999px;
+  border: 0px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgb(247 250 252);
+}
+
+/*
+
+Testomonials
+
+*/
+
+
